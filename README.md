@@ -4,7 +4,7 @@
 This project is a Chrome extension that helps users generate AI-powered replies to messages on LinkedIn. The extension works directly within the LinkedIn messaging interface, providing suggested responses. **Note:** This is a demo extension, so no actual API calls are made to generate responses.
 
 ## Tech Stack
-- **WTX**
+- **WXT**
 - **React**
 - **TypeScript**
 - **Tailwind CSS**
