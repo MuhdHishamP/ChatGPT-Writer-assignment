@@ -32,7 +32,7 @@ To run the extension locally, follow these steps:
 
 2. Navigate to the project directory and install dependencies:
     ```bash
-    cd chatgpt-writer-ext && npm install
+    cd chatgpt-writer-assignment && npm install
     ```
 
 3. Start the local development server:
