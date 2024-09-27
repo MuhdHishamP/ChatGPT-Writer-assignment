@@ -1,25 +1,51 @@
+# ChatGPT Writer Assignment
 
-## Chatgpt-writer-ext
+## Overview
+This project is a Chrome extension that helps users generate AI-powered replies to messages on LinkedIn. The extension works directly within the LinkedIn messaging interface, providing suggested responses. **Note:** This is a demo extension, so no actual API calls are made to generate responses.
 
-Tech used: WTX+ React + Typescript, Tailwind CSS
+## Tech Stack
+- **WTX**
+- **React**
+- **TypeScript**
+- **Tailwind CSS**
 
-## Chrome extension follows all 7 rules as per mentioned in task list
+## Features
+- Follows all 7 rules as specified in the task list.
+- No real API calls for generating responses (demo purposes).
+- A video demonstrating the extension has been recorded.
 
-## Video Recorded
 
-https://github.com/user-attachments/assets/e99b7277-394b-40d5-8b81-0553b609f1cf
+https://github.com/user-attachments/assets/bcf2c4e1-963f-4351-a867-7d44a7285675
 
 
-## Start extension locally
 
-```
-    git clone git@github.com:piyushyadav0191/chatgpt-writer-ext.git
-    cd chatgpt-writer-ext && npm i
-    npm run dev # this will run google chrome with extension locally
-```
 
-## About code
 
-- Popup related code written within entrypoints/popup
-- Website content script related code written in entrypoints/content.ts
- 
+## Setup and Installation
+
+To run the extension locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/MuhdHishamP/ChatGPT-Writer-assignment.git
+    ```
+
+2. Navigate to the project directory and install dependencies:
+    ```bash
+    cd chatgpt-writer-ext && npm install
+    ```
+
+3. Start the local development server:
+    ```bash
+    npm run dev
+    ```
+
+   This will open Google Chrome with the extension running locally.
+
+## Code Structure
+
+- **Popup Interface**: Code related to the popup window of the extension is located in `entrypoints/popup`.
+- **Content Script**: Handles interactions with the LinkedIn messaging system. Found in `entrypoints/content.ts`.
+
+
+
