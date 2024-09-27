@@ -1,7 +1,6 @@
 export default defineContentScript({
   matches: ['*://*.linkedin.com/*', 'https://www.linkedin.com/*'],
   main() {
-    console.log('Hello Piyush');
 
     const addIconToMessageInput = (input: HTMLDivElement) => {
       const icon = document.createElement('img');
